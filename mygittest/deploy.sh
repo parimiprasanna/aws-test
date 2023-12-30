@@ -56,3 +56,5 @@ post {
 	         echo "This will run only if the state of the pipeline changed"
 			 echo "For example, if the Pipline was previously failing but is now successful"
 		  }
+	     }
+        }   
