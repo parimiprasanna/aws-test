@@ -5,7 +5,7 @@ pipeline {
         stage('git-checkout-files') {
             steps {
             echo "checkout all the files";
-		    git url: 'https://github.com/parimiprasanna/aws-test.git', branch: 'main'
+		    git url: 'https://github.com/parimiprasanna/test.git', branch: 'main'
             }
         }
 		
